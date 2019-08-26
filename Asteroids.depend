@@ -1,0 +1,337 @@
+# depslib dependency file v1.0
+1540903862 source:c:\users\guilh\documents\asteroidgameproject\asteroid.cpp
+	"Asteroid.h"
+	"time.h"
+	"Utilities.h"
+	"Physic.h"
+	<windows.h>
+	<stdlib.h>
+	<math.h>
+	<iostream>
+
+1540903880 c:\users\guilh\documents\asteroidgameproject\asteroid.h
+	<windows.h>
+	<GL/glut.h>
+	"Coordinate.h"
+	"Physic.h"
+
+1540903294 c:\users\guilh\documents\asteroidgameproject\coordinate.h
+
+1540903312 c:\users\guilh\documents\asteroidgameproject\physic.h
+	<ctime>
+
+1540982249 c:\users\guilh\documents\asteroidgameproject\utilities.h
+	<string>
+	<sstream>
+
+1540918022 source:c:\users\guilh\documents\asteroidgameproject\boss.cpp
+	"Boss.h"
+	<iostream>
+
+1540917977 c:\users\guilh\documents\asteroidgameproject\boss.h
+	<windows.h>
+	<GL/glut.h>
+	<vector>
+	"Coordinate.h"
+	"Physic.h"
+	"Boss.h"
+	"Shot.h"
+	"Timer.h"
+	"Sound.h"
+
+1540918671 c:\users\guilh\documents\asteroidgameproject\shot.h
+	<windows.h>
+	<GL/glut.h>
+	"Coordinate.h"
+	"Utilities.h"
+	"Sound.h"
+
+1540903627 c:\users\guilh\documents\asteroidgameproject\timer.h
+
+1540903481 source:c:\users\guilh\documents\asteroidgameproject\physic.cpp
+	"Physic.h"
+	<ctime>
+	<iostream>
+	<math.h>
+	"Utilities.h"
+
+1540988718 source:c:\users\guilh\documents\asteroidgameproject\ship.cpp
+	"Ship.h"
+	"Shot.h"
+	"Physic.h"
+	<math.h>
+	<windows.h>
+	<iostream>
+
+1540914605 c:\users\guilh\documents\asteroidgameproject\ship.h
+	<windows.h>
+	<GL/glut.h>
+	<vector>
+	"Shot.h"
+	"Coordinate.h"
+	"Utilities.h"
+	"Physic.h"
+	"Timer.h"
+	"Sound.h"
+
+1540918633 source:c:\users\guilh\documents\asteroidgameproject\shot.cpp
+	"Shot.h"
+	"Coordinate.h"
+	"Physic.h"
+	<algorithm>
+	<iostream>
+	<SFML/Audio.hpp>
+
+1540917977 source:c:\users\guilh\documents\asteroidgameproject\timer.cpp
+	<sys/time.h>
+	"Timer.h"
+
+1541003904 source:c:\users\guilh\documents\asteroidgameproject\main.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+	<iostream>
+	<math.h>
+	<string>
+	<time.h>
+	<fstream>
+	<SFML/Audio.hpp>
+	"Coordinate.h"
+	"Ship.h"
+	"Asteroid.h"
+	"Boss.h"
+	"Keyboard.h"
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\utf.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\string.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\thread.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\vector2.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\system\vector3.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\guilh\documents\libs\sfml-2.5.1\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1540986905 c:\users\guilh\documents\asteroidgameproject\keyboard.h
+	"Ship.h"
+
+1540913802 source:c:\users\guilh\documents\asteroidgameproject\sound.cpp
+	"Sound.h"
+
+1540913783 c:\users\guilh\documents\asteroidgameproject\sound.h
+	<SFML/Audio.hpp>
+
