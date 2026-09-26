@@ -2,9 +2,11 @@ name: Package Linux
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
+
+permissions:
+  contents: write
 
 jobs:
   package:
@@ -23,3 +25,11 @@ jobs:
           name: asteroids-linux-x86_64
           path: dist/linux/asteroids-linux-x86_64.zip
           if-no-files-found: error
+
+      - name: Publish release package
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          gh release upload "$RELEASE_TAG" dist/linux/asteroids-linux-x86_64.zip --clobber

@@ -44,6 +44,8 @@ make package          # same as package-linux
 
 The ZIP contains the executable, assets, and required bundled runtime libraries. Run `run-asteroids.sh` after extracting it; the script configures the bundled library path before launching the game.
 
+[Download the latest Linux package](https://github.com/GSFranzoni/Asteroids/releases/latest/download/asteroids-linux-x86_64.zip).
+
 ## Linux package prerequisites
 
 The Linux ZIP targets 64-bit Linux systems with an X11 display, working OpenGL drivers, and ALSA installed. ALSA is intentionally supplied by the host system so the game uses that system's audio configuration and output device.
