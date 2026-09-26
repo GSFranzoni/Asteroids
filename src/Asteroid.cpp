@@ -2,7 +2,6 @@
 #include "time.h"
 #include "Utilities.h"
 #include "Physic.h"
-#include <windows.h>
 #include <stdlib.h>
 #include <math.h>
 #include <iostream>
@@ -11,10 +10,10 @@ using namespace std;
 
 /**
 Construtor do asteroid.
-Como par‚metros, recebe o tamanho, sua translaÁ„o em x e sua translaÁ„o em y.
+Como par√¢metros, recebe o tamanho, sua transla√ß√£o em x e sua transla√ß√£o em y.
 Seta as coordenadas do desenho e hitbox do asteroid.
-Diminui o tamanho do asteroid de acordo com o par‚metro size.
-Gera um ‚ngulo para a movimentaÁ„o do asteroid.
+Diminui o tamanho do asteroid de acordo com o par√¢metro size.
+Gera um √¢ngulo para a movimenta√ß√£o do asteroid.
 **/
 Asteroid::Asteroid(float size, float tx, float ty)
 {
@@ -70,7 +69,7 @@ void Asteroid::draw()
 }
 
 /**
-Atualiza as coordenadas do asteroid de acordo com a velocidade atravÈs do mÈtodo est·tico 'getConstantVelocity' da
+Atualiza as coordenadas do asteroid de acordo com a velocidade atrav√©s do m√©todo est√°tico 'getConstantVelocity' da
 classe Physic.
 E testa os limites do mapa.
 **/

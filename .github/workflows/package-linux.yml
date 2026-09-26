@@ -1,0 +1,25 @@
+name: Package Linux
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Build the Linux package
+        run: make package-linux
+
+      - name: Upload Linux package
+        uses: actions/upload-artifact@v4
+        with:
+          name: asteroids-linux-x86_64
+          path: dist/linux/asteroids-linux-x86_64.zip
+          if-no-files-found: error

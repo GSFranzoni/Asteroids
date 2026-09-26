@@ -1,7 +1,6 @@
 #ifndef SHIP_H_INCLUDED
 #define SHIP_H_INCLUDED
 
-#include <windows.h>
 #include <GL/glut.h>
 #include <vector>
 #include "Shot.h"

@@ -1,7 +1,6 @@
 #ifndef ASTEROID_H_INCLUDED
 #define ASTEROID_H_INCLUDED
 
-#include <windows.h>
 #include <GL/glut.h>
 #include "Coordinate.h"
 #include "Physic.h"

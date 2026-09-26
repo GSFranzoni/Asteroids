@@ -6,8 +6,8 @@ using namespace std;
 /**
 Construtor do Boss.
 Seta as coordenadas do desenho e hitbox do Boss.
-Gera um ‚ngulo para a movimentaÁ„o do Boss.
-Gera uma translaÁ„o em x e y randÙmicas de maneira que o Boss n„o se colida com a nave assim que for criado.
+Gera um √¢ngulo para a movimenta√ß√£o do Boss.
+Gera uma transla√ß√£o em x e y rand√¥micas de maneira que o Boss n√£o se colida com a nave assim que for criado.
 Seta um tempo de 200ms entre um tiro e outro dado pelo Boss.
 **/
 Boss::Boss()
@@ -81,7 +81,7 @@ void Boss::draw()
 }
 
 /**
-Atualiza as coordenadas do asteroid de acordo com a velocidade atravÈs do mÈtodo est·tico 'getConstantVelocity' da
+Atualiza as coordenadas do asteroid de acordo com a velocidade atrav√©s do m√©todo est√°tico 'getConstantVelocity' da
 classe Physic.
 E testa os limites do mapa.
 **/
@@ -107,7 +107,7 @@ void Boss::move()
 }
 
 /**
-Deleta os tiros que saÌram da ·rea de jogo.
+Deleta os tiros que sa√≠ram da √°rea de jogo.
 **/
 void Boss::shot_out()
 {
@@ -126,7 +126,7 @@ void Boss::shot_out()
 }
 
 /**
-Se a diferenÁa de tempo for v·lida, o Boss atira em um ‚ngulo aleatÛrio.
+Se a diferen√ßa de tempo for v√°lida, o Boss atira em um √¢ngulo aleat√≥rio.
 **/
 void Boss::fire()
 {

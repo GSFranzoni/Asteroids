@@ -44,7 +44,7 @@ long long Timer::getMin_diff_time()
 void Timer::setCurrent_time()
 {
     struct timeval te;
-    gettimeofday(&te, NULL);
+    gettimeofday(&te, nullptr);
     this->current_time = te.tv_sec*1000LL + te.tv_usec/1000;
 }
 

@@ -1,4 +1,3 @@
-#include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glut.h>
@@ -24,9 +23,9 @@ bool playing = false, game_over = false;
 Ship* ship;
 Boss* boss;
 vector<Asteroid*> asteroids;
-Sound* hit_sound = new Sound("explosion.wav");
-Sound* game_over_sound = new Sound("gameover.wav");
-Sound* levelup_sound = new Sound("levelup.wav");
+Sound* hit_sound = new Sound("assets/audio/explosion.wav");
+Sound* game_over_sound = new Sound("assets/audio/gameover.wav");
+Sound* levelup_sound = new Sound("assets/audio/levelup.wav");
 
 void drawText(const char *text, int length, int x, int y, void* font)
 {
@@ -245,11 +244,11 @@ void show_start_screen(){
 void show_game_over_screen(){
     string txt;
     fstream file;
-    file.open("highscore.txt", std::fstream::in | std::fstream::out | std::fstream::app);
+    file.open("assets/data/highscore.txt", std::fstream::in | std::fstream::out | std::fstream::app);
     file >> txt;
     file.close();
     if(ship->getScore()>string_to_int(txt)){
-        file.open("highscore.txt", std::fstream::in | std::fstream::out | std::fstream::trunc);
+        file.open("assets/data/highscore.txt", std::fstream::in | std::fstream::out | std::fstream::trunc);
         file << ship->getScore();
         file.close();
     }
@@ -349,8 +348,9 @@ void init(void)
     glClearColor(0.0f, 0.0f, 0.0f, 1);
 }
 
-int main(void)
+int main(int argc, char** argv)
 {
+    glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition((glutGet(GLUT_SCREEN_WIDTH)-600)/2, (glutGet(GLUT_SCREEN_HEIGHT)-600)/2);
     glutInitWindowSize(600,600);

@@ -1,0 +1,30 @@
+# CMake and compiler output
+/build/
+/build-windows/
+/dist/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.o
+*.obj
+*.exe
+
+# Legacy Code::Blocks user/build metadata
+*.depend
+*.layout
+*.cbp.user
+bin/
+obj/
+
+# Platform-specific runtime libraries
+*.dll
+*.so
+*.dylib
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

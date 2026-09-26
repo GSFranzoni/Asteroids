@@ -1,8 +1,7 @@
 #include "Sound.h"
 
-Sound::Sound(string url){
+Sound::Sound(string url) : sound(buffer){
     this->buffer.loadFromFile(url);
-    this->sound.setBuffer(buffer);
 }
 
 void Sound::play(){

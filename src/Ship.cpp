@@ -2,7 +2,6 @@
 #include "Shot.h"
 #include "Physic.h"
 #include <math.h>
-#include <windows.h>
 #include <iostream>
 
 using namespace std;
@@ -28,8 +27,8 @@ Ship::Ship(int life, int score)
     this->life = life;
     this->score = score;
     this->physic = new Physic(1, 0.99, 0.010);
-    this->fire_sound = new Sound("fire.wav");
-    this->boost_sound = new Sound("thrust.wav");
+    this->fire_sound = new Sound("assets/audio/fire.wav");
+    this->boost_sound = new Sound("assets/audio/thrust.wav");
 }
 
 Ship::~Ship()

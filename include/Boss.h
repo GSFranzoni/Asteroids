@@ -1,13 +1,11 @@
 #ifndef BOSS_H_INCLUDED
 #define BOSS_H_INCLUDED
 
-#include <windows.h>
 #include <GL/glut.h>
 
 #include <vector>
 #include "Coordinate.h"
 #include "Physic.h"
-#include "Boss.h"
 #include "Shot.h"
 #include "Timer.h"
 #include "Sound.h"

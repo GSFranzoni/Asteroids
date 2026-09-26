@@ -1,0 +1,6 @@
+.git
+build/
+build-windows/
+dist/
+cmake-build-*/
+*.zip
