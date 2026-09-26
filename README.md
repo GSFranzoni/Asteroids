@@ -2,6 +2,8 @@
 
 A small C++17 Asteroids game using OpenGL/GLUT for rendering and SFML Audio for sound.
 
+![Asteroids gameplay](docs/images/gameplay.png)
+
 ## A personal note
 
 This project was created for the Computer Graphics course during my Computer Science degree, as a way to put ideas about C++, graphics, input, movement, and collision detection into practice. It gradually became much more than an academic submission: a record of experimenting, debugging, and learning to turn separate concepts into a playable game. For that reason, this repository has considerable emotional value to me and remains a personal reminder of the curiosity, persistence, and enthusiasm that accompanied its creation.

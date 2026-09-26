@@ -8,7 +8,12 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
-find_package(SFML 2.5 REQUIRED COMPONENTS audio)
+# SFML 3 uses capitalized component names, while SFML 2 uses lowercase ones.
+# Prefer SFML 3 when it is available, but retain support for SFML 2.5+.
+find_package(SFML 3 QUIET COMPONENTS Audio)
+if(NOT SFML_FOUND)
+    find_package(SFML 2.5 REQUIRED COMPONENTS audio)
+endif()
 
 add_executable(asteroids
     src/main.cpp
